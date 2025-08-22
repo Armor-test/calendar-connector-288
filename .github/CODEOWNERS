@@ -1,0 +1,34 @@
+# CODEOWNERS file for calendar-connector-288
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-reporting @Armor-test/grp-search @Armor-test/unit-devops
+
+# Directory ownership
+/public/ @Armor-test/dept-billing @Armor-test/squad-cloud
+/middleware/ @Armor-test/dept-data @Armor-test/dept-release
+/ui/ @Armor-test/team-research @Armor-test/squad-research
+/app/ @Armor-test/dept-reliability @Armor-test/grp-reporting
+/styles/ @Armor-test/dept-test @Armor-test/dept-automation
+/static/ @Armor-test/squad-payments @Armor-test/unit-cloud
+/src/ @Armor-test/team-notifications @Armor-test/dept-notifications @Armor-test/dept-data
+/security/ @Armor-test/team-research @Armor-test/dept-data
+/pages/ @Armor-test/dept-billing @Armor-test/unit-design @Armor-test/grp-storage
+/hooks/ @Armor-test/dept-identity @Armor-test/unit-test @Armor-test/squad-database
+
+# File type ownership
+*.html @Armor-test/dept-automation @Armor-test/team-reporting
+*.go @Armor-test/squad-ux @Armor-test/dept-billing
+*.c @Armor-test/squad-search @Armor-test/team-logging @Armor-test/grp-ui
+*.graphql @Armor-test/grp-ui @Armor-test/team-reporting
+*.py @Armor-test/squad-database @Armor-test/unit-governance @Armor-test/team-governance
+*.tsx @Armor-test/team-security @Armor-test/team-logging
+*.swift @Armor-test/grp-search @Armor-test/squad-ux
+*.scss @Armor-test/squad-api @Armor-test/team-frontend
+*.md @Armor-test/dept-api @Armor-test/squad-ml @Armor-test/unit-governance
+*.lock @Armor-test/squad-apps @Armor-test/team-frontend
+*.css @Armor-test/dept-release @Armor-test/grp-ui
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
